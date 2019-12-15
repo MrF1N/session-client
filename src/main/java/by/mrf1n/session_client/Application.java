@@ -12,6 +12,10 @@ import static by.mrf1n.model.CommandType.KICK;
 import static by.mrf1n.model.CommandType.QUIT;
 import static by.mrf1n.model.CommandType.STATUS;
 
+/**
+ * Главный класс
+ */
+
 public class Application {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         MonoClient monoClient = new MonoClient();

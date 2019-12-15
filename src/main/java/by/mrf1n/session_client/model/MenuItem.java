@@ -7,6 +7,10 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 
+/**
+ * Класс пункта меню для меню приложения
+ */
+
 public class MenuItem {
     private Integer menuItemNumber;
     private String menuItemName;

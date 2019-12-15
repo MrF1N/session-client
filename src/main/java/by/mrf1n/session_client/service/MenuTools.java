@@ -19,6 +19,10 @@ import static by.mrf1n.model.CommandType.RUN_JOB;
 import static by.mrf1n.model.CommandType.STATUS;
 import static by.mrf1n.session_client.service.InputTools.anyMatchCommandType;
 
+/**
+ * Класс меню приложения, содержит клиентскую логику ввода/вывода на экран и общения с сервером
+ */
+
 public class MenuTools {
     private MonoClient monoClient;
 

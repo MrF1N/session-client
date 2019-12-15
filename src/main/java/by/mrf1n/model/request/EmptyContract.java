@@ -5,6 +5,10 @@ import lombok.Data;
 
 import java.io.Serializable;
 
+/**
+ * Смотри сервер
+ */
+
 @Data
 public class EmptyContract implements Serializable {
     private CommandType commandType;

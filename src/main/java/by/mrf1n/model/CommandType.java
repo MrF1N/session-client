@@ -1,5 +1,9 @@
 package by.mrf1n.model;
 
+/**
+ * Смотри сервер
+ */
+
 public enum CommandType {
     STATUS,
 

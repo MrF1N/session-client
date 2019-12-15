@@ -8,6 +8,10 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 
+/**
+ * Класс клиентского соединения по сокету
+ */
+
 public class MonoClient {
     protected Socket serverDialog = null;
     protected ObjectOutputStream objectOutputStream;

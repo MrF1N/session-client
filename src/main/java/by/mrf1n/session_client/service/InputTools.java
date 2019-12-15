@@ -4,6 +4,10 @@ import by.mrf1n.model.CommandType;
 
 import java.util.Scanner;
 
+/**
+ * Класс методов для проверки ввода чисел и т.п.
+ */
+
 public class InputTools {
     private static Scanner scanner = new Scanner(System.in);
 
